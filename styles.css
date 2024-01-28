@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: Grey;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#weather-container {
+    text-align: center;
+    padding: 20px;
+    background-color: LightBlue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#location {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
